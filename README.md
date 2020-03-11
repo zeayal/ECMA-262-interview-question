@@ -26,7 +26,7 @@ console.log(a.x); // 打印 undefined
 console.log(b); // 打印 {n: 1, x: {n: 2}}
 ```
 
-## 检查给定的一个参数是 `String` 类型,只适用于 string promitives.使用 typeof 检查被分类为 string primitive 的值。
+## 2、检查给定的一个参数是 `String` 类型,只适用于 string promitives.使用 typeof 检查被分类为 string primitive 的值。
 ```js
 const isString = val => typeof val === 'string';
 ```
